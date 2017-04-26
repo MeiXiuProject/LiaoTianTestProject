@@ -7,6 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "XinXiTableViewCell.h"
+#import "UIView+HeinQi.h"
+//#import "ViewController.h"
+#import "SubXinXiViewController.h"
 
 @interface ListTableViewController : UIViewController<UITableViewDelegate,UITableViewDataSource>
 @property (strong, nonatomic) IBOutlet UITableView *tableView;

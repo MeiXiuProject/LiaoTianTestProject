@@ -71,6 +71,16 @@
 		7350B9A51EAF3F120096C11B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7350B9A41EAF3F120096C11B /* ViewController.xib */; };
 		7350B9A91EAF47E30096C11B /* ListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7350B9A71EAF47E30096C11B /* ListTableViewController.m */; };
 		7350B9AA1EAF47E30096C11B /* ListTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7350B9A81EAF47E30096C11B /* ListTableViewController.xib */; };
+		7350B9AE1EB0291F0096C11B /* XinXiTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7350B9AC1EB0291F0096C11B /* XinXiTableViewCell.m */; };
+		7350B9AF1EB0291F0096C11B /* XinXiTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7350B9AD1EB0291F0096C11B /* XinXiTableViewCell.xib */; };
+		7350B9C71EB0368B0096C11B /* UIBarButtonItem+Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = 7350B9B61EB0368B0096C11B /* UIBarButtonItem+Badge.m */; };
+		7350B9C81EB0368B0096C11B /* UIButton+Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = 7350B9B81EB0368B0096C11B /* UIButton+Badge.m */; };
+		7350B9CA1EB0368B0096C11B /* UIColor+HeinQi.m in Sources */ = {isa = PBXBuildFile; fileRef = 7350B9BC1EB0368B0096C11B /* UIColor+HeinQi.m */; };
+		7350B9CB1EB0368B0096C11B /* UIImage+HeinQi.m in Sources */ = {isa = PBXBuildFile; fileRef = 7350B9BE1EB0368B0096C11B /* UIImage+HeinQi.m */; };
+		7350B9CC1EB0368B0096C11B /* UILabel+HeinQi.m in Sources */ = {isa = PBXBuildFile; fileRef = 7350B9C01EB0368B0096C11B /* UILabel+HeinQi.m */; };
+		7350B9CE1EB0368B0096C11B /* UIView+HeinQi.m in Sources */ = {isa = PBXBuildFile; fileRef = 7350B9C41EB0368B0096C11B /* UIView+HeinQi.m */; };
+		7350B9D31EB0427A0096C11B /* SubXinXiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7350B9D11EB0427A0096C11B /* SubXinXiViewController.m */; };
+		7350B9D41EB0427A0096C11B /* SubXinXiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7350B9D21EB0427A0096C11B /* SubXinXiViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -202,6 +212,25 @@
 		7350B9A61EAF47E30096C11B /* ListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListTableViewController.h; sourceTree = "<group>"; };
 		7350B9A71EAF47E30096C11B /* ListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListTableViewController.m; sourceTree = "<group>"; };
 		7350B9A81EAF47E30096C11B /* ListTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListTableViewController.xib; sourceTree = "<group>"; };
+		7350B9AB1EB0291F0096C11B /* XinXiTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XinXiTableViewCell.h; sourceTree = "<group>"; };
+		7350B9AC1EB0291F0096C11B /* XinXiTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XinXiTableViewCell.m; sourceTree = "<group>"; };
+		7350B9AD1EB0291F0096C11B /* XinXiTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XinXiTableViewCell.xib; sourceTree = "<group>"; };
+		7350B9B51EB0368B0096C11B /* UIBarButtonItem+Badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Badge.h"; sourceTree = "<group>"; };
+		7350B9B61EB0368B0096C11B /* UIBarButtonItem+Badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Badge.m"; sourceTree = "<group>"; };
+		7350B9B71EB0368B0096C11B /* UIButton+Badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Badge.h"; sourceTree = "<group>"; };
+		7350B9B81EB0368B0096C11B /* UIButton+Badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Badge.m"; sourceTree = "<group>"; };
+		7350B9BB1EB0368B0096C11B /* UIColor+HeinQi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HeinQi.h"; sourceTree = "<group>"; };
+		7350B9BC1EB0368B0096C11B /* UIColor+HeinQi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HeinQi.m"; sourceTree = "<group>"; };
+		7350B9BD1EB0368B0096C11B /* UIImage+HeinQi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+HeinQi.h"; sourceTree = "<group>"; };
+		7350B9BE1EB0368B0096C11B /* UIImage+HeinQi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HeinQi.m"; sourceTree = "<group>"; };
+		7350B9BF1EB0368B0096C11B /* UILabel+HeinQi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+HeinQi.h"; sourceTree = "<group>"; };
+		7350B9C01EB0368B0096C11B /* UILabel+HeinQi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+HeinQi.m"; sourceTree = "<group>"; };
+		7350B9C31EB0368B0096C11B /* UIView+HeinQi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HeinQi.h"; sourceTree = "<group>"; };
+		7350B9C41EB0368B0096C11B /* UIView+HeinQi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HeinQi.m"; sourceTree = "<group>"; };
+		7350B9CF1EB036F00096C11B /* CommonHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonHeader.h; sourceTree = "<group>"; };
+		7350B9D01EB0427A0096C11B /* SubXinXiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubXinXiViewController.h; sourceTree = "<group>"; };
+		7350B9D11EB0427A0096C11B /* SubXinXiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubXinXiViewController.m; sourceTree = "<group>"; };
+		7350B9D21EB0427A0096C11B /* SubXinXiViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SubXinXiViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -253,6 +282,7 @@
 		7350B75B1EAF30000096C11B /* SecondLiaoTianP */ = {
 			isa = PBXGroup;
 			children = (
+				7350B9B01EB0368B0096C11B /* Categories */,
 				7350B90E1EAF37550096C11B /* OtherResources */,
 				7350B95C1EAF37550096C11B /* UUChat */,
 				7350B75F1EAF30000096C11B /* AppDelegate.h */,
@@ -263,6 +293,12 @@
 				7350B9A61EAF47E30096C11B /* ListTableViewController.h */,
 				7350B9A71EAF47E30096C11B /* ListTableViewController.m */,
 				7350B9A81EAF47E30096C11B /* ListTableViewController.xib */,
+				7350B9D01EB0427A0096C11B /* SubXinXiViewController.h */,
+				7350B9D11EB0427A0096C11B /* SubXinXiViewController.m */,
+				7350B9D21EB0427A0096C11B /* SubXinXiViewController.xib */,
+				7350B9AB1EB0291F0096C11B /* XinXiTableViewCell.h */,
+				7350B9AC1EB0291F0096C11B /* XinXiTableViewCell.m */,
+				7350B9AD1EB0291F0096C11B /* XinXiTableViewCell.xib */,
 				7350B7651EAF30000096C11B /* Main.storyboard */,
 				7350B76B1EAF30000096C11B /* Assets.xcassets */,
 				7350B76D1EAF30000096C11B /* LaunchScreen.storyboard */,
@@ -451,6 +487,26 @@
 			path = UUChat;
 			sourceTree = "<group>";
 		};
+		7350B9B01EB0368B0096C11B /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				7350B9CF1EB036F00096C11B /* CommonHeader.h */,
+				7350B9B51EB0368B0096C11B /* UIBarButtonItem+Badge.h */,
+				7350B9B61EB0368B0096C11B /* UIBarButtonItem+Badge.m */,
+				7350B9B71EB0368B0096C11B /* UIButton+Badge.h */,
+				7350B9B81EB0368B0096C11B /* UIButton+Badge.m */,
+				7350B9BB1EB0368B0096C11B /* UIColor+HeinQi.h */,
+				7350B9BC1EB0368B0096C11B /* UIColor+HeinQi.m */,
+				7350B9BD1EB0368B0096C11B /* UIImage+HeinQi.h */,
+				7350B9BE1EB0368B0096C11B /* UIImage+HeinQi.m */,
+				7350B9BF1EB0368B0096C11B /* UILabel+HeinQi.h */,
+				7350B9C01EB0368B0096C11B /* UILabel+HeinQi.m */,
+				7350B9C31EB0368B0096C11B /* UIView+HeinQi.h */,
+				7350B9C41EB0368B0096C11B /* UIView+HeinQi.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -572,6 +628,7 @@
 				7350B97C1EAF37550096C11B /* chat_animation1.png in Resources */,
 				7350B9821EAF37550096C11B /* chat_ipunt_message.png in Resources */,
 				7350B98B1EAF37550096C11B /* 0.jpeg in Resources */,
+				7350B9D41EB0427A0096C11B /* SubXinXiViewController.xib in Resources */,
 				7350B9831EAF37550096C11B /* chat_message_back.png in Resources */,
 				7350B9851EAF37550096C11B /* chat_send_message.png in Resources */,
 				7350B9891EAF37550096C11B /* chatfrom_doctor_icon.png in Resources */,
@@ -580,6 +637,7 @@
 				7350B98D1EAF37550096C11B /* headImage.jpeg in Resources */,
 				7350B9811EAF37550096C11B /* chat_animation_white3.png in Resources */,
 				7350B9841EAF37550096C11B /* Chat_record_circle.png in Resources */,
+				7350B9AF1EB0291F0096C11B /* XinXiTableViewCell.xib in Resources */,
 				7350B97D1EAF37550096C11B /* chat_animation2.png in Resources */,
 				7350B9861EAF37550096C11B /* Chat_take_picture.png in Resources */,
 				7350B9A51EAF3F120096C11B /* ViewController.xib in Resources */,
@@ -608,6 +666,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7350B9AE1EB0291F0096C11B /* XinXiTableViewCell.m in Sources */,
+				7350B9C81EB0368B0096C11B /* UIButton+Badge.m in Sources */,
 				7350B9791EAF37550096C11B /* MJRefreshFooterView.m in Sources */,
 				7350B9971EAF37550096C11B /* Mp3Recorder.m in Sources */,
 				7350B7641EAF30000096C11B /* ViewController.m in Sources */,
@@ -619,9 +679,12 @@
 				7350B9921EAF37550096C11B /* UIImageView+AFNetworking.m in Sources */,
 				7350B97B1EAF37550096C11B /* NSDate+Utils.m in Sources */,
 				7350B9981EAF37550096C11B /* UUAVAudioPlayer.m in Sources */,
+				7350B9D31EB0427A0096C11B /* SubXinXiViewController.m in Sources */,
 				7350B99D1EAF37550096C11B /* UUMessageContentButton.m in Sources */,
 				7350B98F1EAF37550096C11B /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				7350B9CB1EB0368B0096C11B /* UIImage+HeinQi.m in Sources */,
 				7350B9951EAF37550096C11B /* UIWebView+AFNetworking.m in Sources */,
+				7350B9CA1EB0368B0096C11B /* UIColor+HeinQi.m in Sources */,
 				7350B76A1EAF30000096C11B /* SecondLiaoTianP.xcdatamodeld in Sources */,
 				7350B9A21EAF37740096C11B /* ChatModel.m in Sources */,
 				7350B96E1EAF37550096C11B /* AFHTTPRequestOperationManager.m in Sources */,
@@ -637,11 +700,14 @@
 				7350B9701EAF37550096C11B /* AFNetworkReachabilityManager.m in Sources */,
 				7350B9911EAF37550096C11B /* UIButton+AFNetworking.m in Sources */,
 				7350B9771EAF37550096C11B /* MJRefreshBaseView.m in Sources */,
+				7350B9CC1EB0368B0096C11B /* UILabel+HeinQi.m in Sources */,
+				7350B9C71EB0368B0096C11B /* UIBarButtonItem+Badge.m in Sources */,
 				7350B99C1EAF37550096C11B /* UUMessageCell.m in Sources */,
 				7350B9741EAF37550096C11B /* AFURLResponseSerialization.m in Sources */,
 				7350B99F1EAF37550096C11B /* UUProgressHUD.m in Sources */,
 				7350B9751EAF37550096C11B /* AFURLSessionManager.m in Sources */,
 				7350B9941EAF37550096C11B /* UIRefreshControl+AFNetworking.m in Sources */,
+				7350B9CE1EB0368B0096C11B /* UIView+HeinQi.m in Sources */,
 				7350B75E1EAF30000096C11B /* main.m in Sources */,
 				7350B9781EAF37550096C11B /* MJRefreshConst.m in Sources */,
 				7350B99A1EAF37550096C11B /* UUInputFunctionView.m in Sources */,
@@ -896,6 +962,7 @@
 				7350B78B1EAF30010096C11B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7350B78C1EAF30010096C11B /* Build configuration list for PBXNativeTarget "SecondLiaoTianPTests" */ = {
 			isa = XCConfigurationList;
@@ -904,6 +971,7 @@
 				7350B78E1EAF30010096C11B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7350B78F1EAF30010096C11B /* Build configuration list for PBXNativeTarget "SecondLiaoTianPUITests" */ = {
 			isa = XCConfigurationList;
@@ -912,6 +980,7 @@
 				7350B7911EAF30010096C11B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

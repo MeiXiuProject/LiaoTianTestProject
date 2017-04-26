@@ -17,26 +17,38 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    [self.tableView registerNib:[UINib nibWithNibName:@"" bundle:[NSBundle mainBundle]] forCellReuseIdentifier:@""];
+    [self.tableView registerNib:[UINib nibWithNibName:@"XinXiTableViewCell" bundle:[NSBundle mainBundle]] forCellReuseIdentifier:@"XinXiTableViewCellID"];
+    
 }
 
 #pragma mark TableviewDelegate代理方发 START
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return 1;
+    return 10;
 }
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
 
-    return 45.0f;
+    return 70.0f;
 }
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-    static NSString * cellID = @"cellID";
-
-    UITableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:cellID];
-    if (!cell) {
-        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellID];
-    }
+    static NSString * cellID = @"XinXiTableViewCellID";
+//    UITableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:cellID];
+//    if (!cell) {
+//        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellID];
+//    }
+    
+    XinXiTableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:cellID forIndexPath:indexPath];
+    //[cell.headerImageVIew showBadgeValue:@"5"];
+    [cell.headBackView showBadgeValue:@"3"];
     
     return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+
+    SubXinXiViewController * vc = [[SubXinXiViewController alloc]init];
+    
+    [self.navigationController pushViewController:vc animated:YES];
+    
 }
 
 #pragma end mark 打理方法结束
