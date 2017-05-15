@@ -19,6 +19,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    //[self.chatTableView registerClass:[UUMessage class] forCellReuseIdentifier:@"CellID"];
     [self addRefreshViews];
     [self loadBaseViewsAndData];
     // Do any additional setup after loading the view from its nib.
@@ -182,6 +184,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)dealloc{
+    [_head free];
+}
 /*
 #pragma mark - Navigation
 

@@ -18,6 +18,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     [self.tableView registerNib:[UINib nibWithNibName:@"XinXiTableViewCell" bundle:[NSBundle mainBundle]] forCellReuseIdentifier:@"XinXiTableViewCellID"];
+   
     
 }
 

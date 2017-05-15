@@ -14,6 +14,6 @@
 #import "UUMessageFrame.h"
 #import "UUMessage.h"
 @interface SubXinXiViewController : UIViewController
-@property (weak, nonatomic) IBOutlet UITableView *chatTableView;
-@property (weak, nonatomic) IBOutlet NSLayoutConstraint *bottomConstraint;
+@property (strong, nonatomic) IBOutlet UITableView *chatTableView;
+@property (strong, nonatomic) IBOutlet NSLayoutConstraint *bottomConstraint;
 @end
